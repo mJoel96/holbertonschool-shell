@@ -1,2 +1,2 @@
 #!/bin/nash
-cp -u*.html ..
+cp -u * .html ..
