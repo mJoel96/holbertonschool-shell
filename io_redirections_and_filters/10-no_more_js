@@ -1,2 +1,2 @@
 #!/bin/bash
-find $current_dir -type f -name "*.js" rm $files
+find . -type f -name "*.js" -delete
