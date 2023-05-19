@@ -1,2 +1,2 @@
 #!/bin/bash
-$ ./convert_base10_to_base16
+printf "5\n" $DECIMAL
