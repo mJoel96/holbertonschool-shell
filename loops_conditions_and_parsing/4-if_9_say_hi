@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # This says BestSchool 10 times
 
-i=0
+i=O
 
 while [ $i -lt 10 ]
 do
