@@ -3,14 +3,14 @@
 
 i=O
 
-while [ $i -lt 10 ]
+while [ $count -lt 10 ]
 do
-  if [ $i -eq 9 ]; then
+  if [ $count -eq 9 ]; then
     echo "Hi"
   else
     echo "Best School"
   fi
-  ((i++ ))
+  (( count++ ))
 
 done
 
