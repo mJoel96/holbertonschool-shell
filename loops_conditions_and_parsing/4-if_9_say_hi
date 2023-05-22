@@ -3,8 +3,12 @@
 
 i=0
 
-while [ $i -eq 10 ]
-do
-	echo "Best School"
-	(( i++ ))
-done
+while [ $i -lt 10 ]; do
+  if [ $i -eq 9 ]; then
+    echo "Best School Hi"
+  else
+    echo "Best School"
+  fi
+  i=$(($i + 1))
+Done
+
