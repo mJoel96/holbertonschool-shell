@@ -5,9 +5,7 @@ i=O
 
 while [ $i -lt 10 ]
 do
-  if [ $count -lt 9 ]; then
-    echo "Best School"
-  elif [$count -eq 9]; then
+  if [ $count -lt 9 ]; then 
 	  echo "Hi\n"
   else
     echo "Best School"
