@@ -1,13 +1,14 @@
 #!/usr/bin/env bash
-# This says BestSchool 10 times
-
-i=O
-
-while [ $i -lt 10 ]; do
-  if [ $i -eq 9 ]; then
-    echo "Hi"
-  else
-    echo "Best School"
-  fi
-  i=$[$i+1]
+# say hi after the nine line of loop
+b=0
+while [ $b -lt 10 ]
+do
+     echo "Best School"
+	(( b++ ))
+     if [ $b == 9 ]
+	then
+       	echo "Hi"
+     else
+	 true
+	fi
 done
