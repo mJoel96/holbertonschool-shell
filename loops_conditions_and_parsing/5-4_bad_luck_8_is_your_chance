@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # loops 1-10
 
-count=0
+count=O
 while [ $count -lt 10 ]
 do
 	if [ $count -eq 3 ]
