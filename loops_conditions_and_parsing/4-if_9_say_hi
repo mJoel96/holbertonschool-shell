@@ -1,1 +1,10 @@
 #!/usr/bin/env bash
+# This says BestSchool 10 times
+
+i=0
+
+while [ $i -eq 10 ]
+do
+	echo "Best School"
+	(( i++ ))
+done
