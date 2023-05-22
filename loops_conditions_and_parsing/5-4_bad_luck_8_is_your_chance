@@ -1,17 +1,17 @@
 #!/usr/bin/env bash
-# loops 1-10
-
-count=O
-while [ $count -lt 10 ]
+# display bad luck and good luck
+bs=0
+while [ $bs -lt 8 ]
 do
-	if [ $count -eq 3 ]
-	then
-		echo "bad luck"
-	elif [ $count -eq 7 ]
-	then
-		echo "good luck"
-	else
-		echo "Best School"
-	fi
-	(( count++ ))
+      echo "Best School"
+      (( bs++ ))
+      if [ $bs == 3 ]
+      then
+	  echo "bad luck"
+      elif [ $bs == 6 ]
+      then
+	  echo "good luck"
+      else
+	  true
+      fi
 done
