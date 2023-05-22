@@ -29,3 +29,5 @@ restart) restart
 
 *) echo "Usage: manage_my_process {start|stop|restart}"
 ;;
+
+esac
